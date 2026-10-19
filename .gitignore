@@ -1,25 +1,53 @@
-# OS
+# ============ 安全：密钥 ============
+*.pem
+*.key
+*.p12
+*.pfx
+*.jks
+id_rsa*
+id_ed25519*
+id_ecdsa*
+*_rsa
+*_ed25519
+
+# ============ 安全：令牌与凭据 ============
+*token*
+*secret*
+credentials*
+*_credentials.*
+
+# ============ 安全：VPN 配置 ============
+*.ovpn
+*.tblk
+wg*.conf
+wireguard/
+
+# ============ 安全：环境变量 ============
+.env
+*.env
+!.env.example
+
+# ============ 临时文件 ============
+*.tmp
+*.temp
+*.bak
+*.swp
+*~
 .DS_Store
 Thumbs.db
+desktop.ini
 
+# ============ 系统与工具 ============
 # Python
 __pycache__/
 *.py[cod]
 *.egg-info/
 .venv/
 venv/
-
 # Node
 node_modules/
 dist/
 *.log
-
-# Editors
+# 编辑器
 .vscode/
 .idea/
-*.swp
-
-# Env / secrets
-.env
-*.pem
-*.key
