@@ -1,6 +1,6 @@
 # LPprocess
 
-基于 draw.io desktop 32.5.5 的换壳定制版：改名 LPprocess，开发者信息 LPITS，其余功能与原版一致。
+基于 draw.io功能，开发 LPprocess，开发者信息 LPITS，其余功能与原版一致。
 
 ## 定制内容（相对原版 32.5.5）
 
